@@ -1,0 +1,35 @@
+body {
+    background-color: lightgray;
+}
+ 
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid black;
+    padding:cadetblue;
+    background-color: black;
+}
+.nav {
+    list-style:none;
+    text-align:center;
+}
+ 
+.nav li {
+    display:inline;
+    margin-right: 20px;
+}
+ 
+.copy {
+    font-size:25px;
+    color: bisque;
+    background-color: red;
+}
+.jayesh1{
+    font-size:21000px;
+    color:black
+}
+.jayesh2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+}
