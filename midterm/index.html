@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samarth - Midterm Project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="photos.html">Photos</a></li>
+        </ul>
+    </nav>
+    <div>
+        <h1 style="text-align: center;">Home - DogeMiner</h1>
+    </div>
+
+    <div class="image-container">
+        <img src="images/dogecoin.jpeg" alt="Dogecoin" class="dogeimage">
+    </div>
+    <h6>Picture of dogecoin.</h6>
+
+    <div style="align-content: center;">
+        <p class="border">
+            DogeMiner is a game that is based on the popular cryptocurrency Dogecoin. 
+            The game is a clicker game where you have to click to mine Dogecoin. The more Dogecoin you mine, 
+            the more upgrades you can buy to mine Dogecoin faster. The game is a fun way to learn about 
+            Dogecoin and how it works. The game is available on the web and can be played on any device. 
+            The game is free to play and is a great way to pass the time. The game is easy to play and is 
+            a great way to learn about Dogecoin. The game is a great way to learn about cryptocurrency.
+        </p>
+    </div>
+
+    <!-- TradingView Widget -->
+    <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <div class="tradingview-widget-copyright">
+            <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
+                <span class="blue-text">Track all markets on TradingView</span>
+            </a>
+        </div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+        {
+            "width": 980,
+            "height": 610,
+            "symbol": "COINBASE:DOGEUSD",
+            "interval": "D",
+            "timezone": "Etc/UTC",
+            "theme": "light",
+            "style": "9",
+            "locale": "en",
+            "withdateranges": true,
+            "hide_side_toolbar": false,
+            "allow_symbol_change": true,
+            "calendar": false,
+            "support_host": "https://www.tradingview.com"
+        }
+        </script>
+    </div>
+    <!-- TradingView Widget END -->
+</body>
+</html>
