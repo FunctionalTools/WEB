@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samarth | JS Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/Javascript" src="js"></script>
+</head>
+<body>
+    <h1>This is a JavaScript Demo.</h1>
+    <p><a href="https://www.google.com" target="_blank" onclick="while(true){alert('You cannot leave this tab')}">HA HA HA</a></p>
+    <h2>How do we do math with JS?</h2>
+    <p>What is 5 + 6?</p>
+    <button onclick="document.getElementById('add').innerHTML=5+6">Click here for the answer.</button>
+    <p id="add"></p>
+    <h2>We can also display date and time.</h2>
+    <button onclick="document.getElementById('date').innerHTML=Date()">Click here for the answer.</button>
+    <p id="date"></p>
+    <h2>How do we change text with JS?</h2>
+    <button onclick="document.getElementById('change-text').innerHTML='You did it!'">Try it!</button>
+    <p id="change-text">This text will change</p>
+    <h2>How do we make a function with JS?</h2>
+    <p>Let's build a function to add text to the page.</p>
+    <button onclick="moreText()" id="moretext">Click me to add a function.</button>
+    <p id="moretext"></p>
+    <h2>How do we return user data?</h2>
+    <button onclick="askName()">Click me to ask for your name.</button>
+    <p id="ask-name"></p>
+    <h2>How do we return user data?</h2>
+    <button onclick="askQuestion()">HAAHAHAHHA.</button>
+    <p id="ask-question"></p>
+    <script>
+        alert("Chat wsg");
+        function askName(){
+            var nameReturn = document.getElementById('ask-name');
+            var name=prompt("What is your name?", "HERE");
+            if(name == ""){
+                alert('Please try again.');
+            } else{
+                nameReturn.innerHTML="Hello, " + name + "!";
+            }
+        }
+        function moreText() {
+            var p = document.getElementById('moretext').innerHTML;
+            p.innerHTML="You just ran a function.";
+            p.style.color="red";
+            p.fontSize="24px";
+            p.style.textAlign="center";
+        }
+    </script>
+</body>
+</html>
