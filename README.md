@@ -5,5 +5,3 @@
 	<li><a href="js_demo">JS Demo</a></li>
 	<li><a href="final">Final</a></li>
 </ul>
-
-<iframe src="https://gobattle.io" height="200" width="300" title="GB"></iframe>
