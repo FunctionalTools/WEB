@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - StockSuggest</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <script type="text/javascript" src="js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="introduction.html">Introduction</a></li>
+            <li><a href="guide.html">Guide</a></li>
+            <li><a href="stocktypes.html">Stock Types</a></li>
+            <li><a href="defiguide.html">DeFi Guide</a></li>
+        </ul>
+    </nav>
+    <p>The very first stock exchanges were made in the 18th century. A stock is a share of ownership of a specific product. This could be owning a part of a company, or even something like coffee (these are called commodity stocks). However, this website will focus primarily on stocks that represent ownership of a company. Almost all company founders have lots of ownership of a company. You can buy a part of a specific company for a certain price. The primary reason behind owning parts of companies is hoping for that company’s valuation to go up. If a company’s valuation goes up, the stock price will go up, and one can sell a stock for a higher price. This can create profit for many who would otherwise have a hard time getting money. However, this reward doesn’t come without risk. Many companies go bankrupt, so one can lose all of their money in the timeframe of a singular day. This is why most investors have a lot of background and information about the stocks they invest in. For the investors who don’t have the time to research various companies that they would like to invest in, play it safe and buy ownership of blue chip stocks. What these are are trustworthy companies that people know will increase in valuation in the long run. Examples of these types of companies are Amazon, Google, and Nvidia. Since these companies are large, most people assume that they will deliver (and they usually do). </p>
+    <!-- TradingView Widget -->
+    <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <div class="tradingview-widget-copyright">
+            <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
+                <span class="blue-text">Track all markets on TradingView</span>
+            </a>
+        </div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+        {
+            "width": 980,
+            "height": 610,
+            "symbol": "NVDA",
+            "interval": "D",
+            "timezone": "Etc/UTC",
+            "theme": "light",
+            "style": "9",
+            "locale": "en",
+            "withdateranges": true,
+            "hide_side_toolbar": false,
+            "allow_symbol_change": true,
+            "calendar": false,
+            "support_host": "https://www.tradingview.com"
+        }
+        </script>
+</body>
+</html>
